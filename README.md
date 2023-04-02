@@ -72,5 +72,6 @@ Out of all models, LR with balancing along with one hot gives the best result in
 log loss, no. of misqualified points(mostly), interpretability.
 
 **Conclusion:**
+
 Out of all models, LR with balancing along with one hot gives the best result in terms of:
 log loss, no. of misqualified points(mostly), interpretability.
