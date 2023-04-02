@@ -51,11 +51,12 @@ gene feature to know whether gene is useful variable or not
 well.
 
 **What I have done:**
+
 ● Maintaining the same distribution of output variable, even after splitting data into
 train, test and cv.
 
-● Apply a random model to check the worst performance (minimum required value).
-Will use it to compare with other models.
+● Apply a random model(base) to compare the performance with other models. 
+Random model simply picks any one class out of nine classes. Performance of a random is baseline for others.
 
 **Modeling:**
 
