@@ -2,12 +2,12 @@
 **Multi-class classification problem**
 
 
-Problem statement:
+**Problem statement:**
 
 ● Classify the given genetic variations/mutations based on evidence from text-based
 clinical literature. (Classify given data into one of 9 classes)
 
-Objective:
+**Objective:**
 
 ● Predict the probability of each data-point belonging to each of the nine classes.
 Constraints:
@@ -21,7 +21,7 @@ probabilities)
 
 ● No low-latency requirement.
 
-EDA:
+**EDA:**
 
 ● 2 files and both have one common column (id), merge both tables:
 training_variants (ID , Gene, Variations, Class), training_text (ID, Text)
@@ -43,21 +43,21 @@ into numerical(vector))
 
 Text is text data: pre-processing, encoding, use no. of occurrence, Normalizing each row
 
-Gene & variation:
+**Gene & variation:**
 
 used no. of occurrence of each categories of gene & variation, apply LR with only
 gene feature to know whether gene is useful variable or not
 (compare with random model performance) & same applied for variation feature as
 well.
 
-What I have done:
+**What I have done:**
 ● Maintaining the same distribution of output variable, even after splitting data into
 train, test and cv.
 
 ● Apply a random model to check the worst performance (minimum required value).
 Will use it to compare with other models.
 
-Modeling:
+**Modeling:**
 
 works well with high dimensions:
 1) LR with balancing, without balancing along with one hot encoding and sgd classifier(good
@@ -71,6 +71,6 @@ Conclusion:
 Out of all models, LR with balancing along with one hot gives the best result in terms of:
 log loss, no. of misqualified points(mostly), interpretability.
 
-Conclusion:
+**Conclusion:**
 Out of all models, LR with balancing along with one hot gives the best result in terms of:
 log loss, no. of misqualified points(mostly), interpretability.
