@@ -1,5 +1,5 @@
 # Cancer-diagnosis-Classification
-Multi-class classification problem
+**Multi-class classification problem**
 
 
 Problem statement:
